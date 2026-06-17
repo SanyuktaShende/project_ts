@@ -4,8 +4,8 @@ export class User implements IUser {
 
 	constructor(
 
-		public name: string,
 		public id: number,
+		public name: string,
 		public email: string
 	) { }
 
